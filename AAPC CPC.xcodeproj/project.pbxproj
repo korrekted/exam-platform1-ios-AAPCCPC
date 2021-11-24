@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5BE14DA904077ECF135795DF /* Pods_AAPC_CPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F088796DE528966D0FCF55 /* Pods_AAPC_CPC.framework */; };
+		96AD3506274E2D6B0098D472 /* SetSelectCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD3505274E2D6B0098D472 /* SetSelectCourseRequest.swift */; };
+		96AD3509274E2D910098D472 /* GetSelectedCourseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD3508274E2D910098D472 /* GetSelectedCourseResponse.swift */; };
+		96AD350B274E2DAA0098D472 /* GetSelectedCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD350A274E2DAA0098D472 /* GetSelectedCourseRequest.swift */; };
 		96BF184126A9DD4F00AEF6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BF184026A9DD4F00AEF6D3 /* Assets.xcassets */; };
 		96BF185226A9DF1500AEF6D3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BF185126A9DF1500AEF6D3 /* WidgetKit.framework */; };
 		96BF185426A9DF1500AEF6D3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BF185326A9DF1500AEF6D3 /* SwiftUI.framework */; };
@@ -291,6 +294,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		96AD3505274E2D6B0098D472 /* SetSelectCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSelectCourseRequest.swift; sourceTree = "<group>"; };
+		96AD3508274E2D910098D472 /* GetSelectedCourseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseResponse.swift; sourceTree = "<group>"; };
+		96AD350A274E2DAA0098D472 /* GetSelectedCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseRequest.swift; sourceTree = "<group>"; };
 		96BF183426A9DD4C00AEF6D3 /* AAPC CPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AAPC CPC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BF184026A9DD4F00AEF6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96BF184526A9DD4F00AEF6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -582,6 +588,23 @@
 				96BF185326A9DF1500AEF6D3 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96AD3504274E2D620098D472 /* SetSelectCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD3505274E2D6B0098D472 /* SetSelectCourseRequest.swift */,
+			);
+			path = SetSelectCourse;
+			sourceTree = "<group>";
+		};
+		96AD3507274E2D880098D472 /* GetSelectedCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD3508274E2D910098D472 /* GetSelectedCourseResponse.swift */,
+				96AD350A274E2DAA0098D472 /* GetSelectedCourseRequest.swift */,
+			);
+			path = GetSelectedCourse;
 			sourceTree = "<group>";
 		};
 		96BF182B26A9DD4C00AEF6D3 = {
@@ -919,6 +942,8 @@
 		96BF18C226A9E05D00AEF6D3 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				96AD3507274E2D880098D472 /* GetSelectedCourse */,
+				96AD3504274E2D620098D472 /* SetSelectCourse */,
 				96BF18C326A9E05D00AEF6D3 /* GetCourcesRequest.swift */,
 				96BF18C426A9E05D00AEF6D3 /* GetReferences */,
 				96BF18C726A9E05D00AEF6D3 /* GetCourcesResponseMapper.swift */,
@@ -1856,6 +1881,7 @@
 				96BF19BB26A9E05D00AEF6D3 /* PaygateManagerCore.swift in Sources */,
 				96BF1A7D26A9E05E00AEF6D3 /* OSlideTimeView.swift in Sources */,
 				96BF19F126A9E05E00AEF6D3 /* GetBriefRequest.swift in Sources */,
+				96AD3509274E2D910098D472 /* GetSelectedCourseResponse.swift in Sources */,
 				96BF1A0926A9E05E00AEF6D3 /* SplashViewModel.swift in Sources */,
 				96BF1A6C26A9E05E00AEF6D3 /* WelcomeSlide3View.swift in Sources */,
 				96BF1A3926A9E05E00AEF6D3 /* PaygateOptionView.swift in Sources */,
@@ -1944,6 +1970,7 @@
 				96BF19CD26A9E05D00AEF6D3 /* TestStatsManager.swift in Sources */,
 				96BF19A226A9E05D00AEF6D3 /* StringExtension.swift in Sources */,
 				96BF1A4626A9E05E00AEF6D3 /* TestStatsProgressView.swift in Sources */,
+				96AD350B274E2DAA0098D472 /* GetSelectedCourseRequest.swift in Sources */,
 				96BF19DE26A9E05D00AEF6D3 /* Reference.swift in Sources */,
 				96BF1A0F26A9E05E00AEF6D3 /* SCTakeTestCell.swift in Sources */,
 				96BF19B126A9E05D00AEF6D3 /* PaddingPickerView.swift in Sources */,
@@ -2030,6 +2057,7 @@
 				96BF1A6D26A9E05E00AEF6D3 /* WelcomeSlide2View.swift in Sources */,
 				96BF19A326A9E05D00AEF6D3 /* GlobalDefinitions.swift in Sources */,
 				96BF1A3E26A9E05E00AEF6D3 /* TestStatsAnswerCell.swift in Sources */,
+				96AD3506274E2D6B0098D472 /* SetSelectCourseRequest.swift in Sources */,
 				96BF1A0726A9E05E00AEF6D3 /* SettingsViewController.swift in Sources */,
 				96BF1A7126A9E05E00AEF6D3 /* OSlideReferencesView.swift in Sources */,
 			);
@@ -2195,7 +2223,7 @@
 				CODE_SIGN_ENTITLEMENTS = "AAPC CPC/AAPC CPC.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/AAPC CPC/Resource/Info.plist";
@@ -2204,7 +2232,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC Development";
@@ -2224,7 +2252,7 @@
 				CODE_SIGN_ENTITLEMENTS = "AAPC CPC/AAPC CPC.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/AAPC CPC/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2232,7 +2260,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC AppStore";
@@ -2250,7 +2278,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2259,7 +2287,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc.widgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC Widgets Development";
@@ -2277,7 +2305,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2286,7 +2314,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc.widgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC Widgets AppStore";
