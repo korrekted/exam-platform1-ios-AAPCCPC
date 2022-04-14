@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Test {
+struct Test: Codable, Hashable {
     let paid: Bool
     let userTestId: Int
     let questions: [Question]
 }
 
-struct Question {
+struct Question: Codable, Hashable {
     let id: Int
     let image: URL?
     let video: URL?
@@ -23,11 +23,12 @@ struct Question {
     let multiple: Bool
     let explanation: String?
     let explanationHtml: String?
+    let media: [URL]
     let isAnswered: Bool
     let reference: String?
 }
 
-struct Answer {
+struct Answer: Codable, Hashable {
     let id: Int
     let answer: String?
     let answerHtml: String?

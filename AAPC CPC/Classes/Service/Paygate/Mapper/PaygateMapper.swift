@@ -12,12 +12,17 @@ import UIKit.UIColor
 final class PaygateMapper {
     typealias PaygateResponse = (json: [String: Any], paygate: Paygate, productsIds: [String])
     
-    static func parse(response: Any, productsPrices: [ProductPrice]?) -> PaygateResponse? {
+    static func parse(response: Any, productsPrices: [ProductPrice]?) throws -> PaygateResponse? {
         guard
             let json = response as? [String: Any],
-            let data = json["_data"] as? [String: Any]
+            let data = json["_data"] as? [String: Any],
+            let code = json["_code"] as? Int
         else {
-            return nil
+            throw ContentError(.notContent)
+        }
+        
+        guard code == 200 else {
+            throw ContentError(.notContent)
         }
         
         let main = map(main: data, productsPrices: productsPrices)
@@ -45,7 +50,7 @@ private extension PaygateMapper {
         let optionsJSONArray = (main["options"] as? [[String: Any]]) ?? []
         let options = optionsJSONArray.enumerated().compactMap { map(option: $1, productsPrices: productsPrices, index: $0) }
         
-        return PaygateMainOffer(options: options, questionCount: questionCount)
+        return PaygateMainOffer(questionCount: questionCount, options: options)
     }
     
     static func map(option: [String: Any], productsPrices: [ProductPrice]?, index: Int) -> PaygateOption? {
