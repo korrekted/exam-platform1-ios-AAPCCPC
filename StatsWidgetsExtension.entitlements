@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.aapccpc.widgets</string>
+		<string>group.aapccpc.widget</string>
 	</array>
 </dict>
 </plist>
