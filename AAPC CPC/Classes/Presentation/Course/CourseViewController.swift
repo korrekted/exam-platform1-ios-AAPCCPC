@@ -15,6 +15,18 @@ final class CourseViewController: UIViewController {
     
     private lazy var coordinator = CourseViewCoordinator(parentVC: self)
     
+    private let needRequestReview: Bool
+    
+    private init(needRequestReview: Bool) {
+         self.needRequestReview = needRequestReview
+
+         super.init(nibName: nil, bundle: nil)
+     }
+
+     required init?(coder: NSCoder) {
+         fatalError("init(coder:) has not been implemented")
+     }
+    
     override func loadView() {
         super.loadView()
         
@@ -25,6 +37,7 @@ final class CourseViewController: UIViewController {
         super.viewDidLoad()
         
         addActionsToTabs()
+        requestReviewIfNeeded()
         
         rx.methodInvoked(#selector(UIViewController.viewDidLayoutSubviews))
             .take(1)
@@ -37,8 +50,8 @@ final class CourseViewController: UIViewController {
 
 // MARK: Make
 extension CourseViewController {
-    static func make() -> CourseViewController {
-        let vc = CourseViewController()
+    static func make(needRequestReview: Bool = false) -> CourseViewController {
+        let vc = CourseViewController(needRequestReview: needRequestReview)
         vc.navigationItem.backButtonTitle = " "
         return vc
     }
@@ -74,4 +87,10 @@ private extension CourseViewController {
     func update(selectedTab: TabView.Tab) {
         coordinator.change(tab: selectedTab)
     }
+    
+    func requestReviewIfNeeded() {
+         if needRequestReview {
+             RateManagerCore().showAlert()
+         }
+     }
 }
