@@ -32,6 +32,7 @@
 		96BF1AAB26A9E75E00AEF6D3 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96BF1AA826A9E75D00AEF6D3 /* SF-Pro-Rounded-Bold.otf */; };
 		96BF1AAC26A9E79200AEF6D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96BF1A8126A9E4FF00AEF6D3 /* Localizable.strings */; };
 		96BF1AB426A9E86A00AEF6D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96BF1AB326A9E86A00AEF6D3 /* GoogleService-Info.plist */; };
+		DE4FA12E28D64FAA00085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA12D28D64FAA00085483 /* Onboarding.Chart.json */; };
 		DEC37A31289A7C49005372BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3786C289A7C49005372BC /* UIColorExtension.swift */; };
 		DEC37A32289A7C49005372BC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3786D289A7C49005372BC /* Collection+Extension.swift */; };
 		DEC37A33289A7C49005372BC /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3786E289A7C49005372BC /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DEC37B5C289A7C49005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37A13289A7C49005372BC /* OImproveCell.swift */; };
 		DEC37B5D289A7C49005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37A15289A7C49005372BC /* ReferencesTableCell.swift */; };
 		DEC37B5E289A7C49005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37A16289A7C49005372BC /* ReferencesTableView.swift */; };
-		DEC37B5F289A7C49005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC37A18289A7C49005372BC /* Onboarding.Chart.json */; };
 		DEC37B60289A7C49005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37A19289A7C49005372BC /* OWhenStudyCell.swift */; };
 		DEC37B61289A7C49005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37A1B289A7C49005372BC /* WelcomeSlide1View.swift */; };
 		DEC37B62289A7C49005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37A1C289A7C49005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -422,6 +422,7 @@
 		9F6BD36C47F8577D1EA95AF1 /* Pods-AAPC CPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAPC CPC.debug.xcconfig"; path = "Target Support Files/Pods-AAPC CPC/Pods-AAPC CPC.debug.xcconfig"; sourceTree = "<group>"; };
 		A1F088796DE528966D0FCF55 /* Pods_AAPC_CPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AAPC_CPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE47FE77E6ABDD24353302 /* Pods-AAPC CPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAPC CPC.release.xcconfig"; path = "Target Support Files/Pods-AAPC CPC/Pods-AAPC CPC.release.xcconfig"; sourceTree = "<group>"; };
+		DE4FA12D28D64FAA00085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC3786C289A7C49005372BC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DEC3786D289A7C49005372BC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DEC3786E289A7C49005372BC /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -724,7 +725,6 @@
 		DEC37A13289A7C49005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC37A15289A7C49005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC37A16289A7C49005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC37A18289A7C49005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC37A19289A7C49005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC37A1B289A7C49005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC37A1C289A7C49005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DEC37A17289A7C49005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC37A18289A7C49005372BC /* Onboarding.Chart.json */,
+				DE4FA12D28D64FAA00085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2374,12 +2374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC37B7C289A7C85005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC37B5F289A7C49005372BC /* Onboarding.Chart.json in Resources */,
 				96BF1AB426A9E86A00AEF6D3 /* GoogleService-Info.plist in Resources */,
 				96BF1A8526A9E4FF00AEF6D3 /* LaunchScreen.storyboard in Resources */,
 				96BF1A8426A9E4FF00AEF6D3 /* Localizable.strings in Resources */,
 				96BF184126A9DD4F00AEF6D3 /* Assets.xcassets in Resources */,
 				96BF1AA926A9E75E00AEF6D3 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				DE4FA12E28D64FAA00085483 /* Onboarding.Chart.json in Resources */,
 				96BF1AAB26A9E75E00AEF6D3 /* SF-Pro-Rounded-Bold.otf in Resources */,
 				96BF1AAA26A9E75E00AEF6D3 /* SF-Pro-Rounded-Regular.otf in Resources */,
 			);
@@ -2967,7 +2967,7 @@
 				CODE_SIGN_ENTITLEMENTS = "AAPC CPC/AAPC CPC.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/AAPC CPC/Resource/Info.plist";
@@ -2976,7 +2976,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC Prod";
@@ -2996,7 +2996,7 @@
 				CODE_SIGN_ENTITLEMENTS = "AAPC CPC/AAPC CPC.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/AAPC CPC/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3004,7 +3004,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC Prod";
@@ -3022,7 +3022,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3031,7 +3031,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC Widget Prod";
@@ -3049,7 +3049,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3058,7 +3058,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aapccpc.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "AAPC CPC Widget Prod";
