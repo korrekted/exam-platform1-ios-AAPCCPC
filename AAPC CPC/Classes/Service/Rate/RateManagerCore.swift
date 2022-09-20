@@ -14,16 +14,12 @@ final class RateManagerCore: RateManager {
 
 // MARK: API
 extension RateManagerCore {
-    func showAlert() {
-         SKStoreReviewController.requestReview()
-     }
-    
     func showFirstAfterPassRateAlert() {
         let isFirstAfterPass = UserDefaults.standard.bool(forKey: Constants.showFirstAfterPass)
         
         guard !isFirstAfterPass else { return }
         
-        SDKStorage.shared.amplitudeManager
+        AmplitudeManager.shared
             .logEvent(name: "Rating Request", parameters: [:])
         
         SKStoreReviewController.requestReview()
